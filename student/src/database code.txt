@@ -1,0 +1,15 @@
+CREATE TABLE stud_profile(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	fullName VARCHAR(255) NOT NULL,
+	age INT NOT NULL
+);
+
+SELECT * FROM stud_profile;
+
+INSERT INTO stud_profile(fullName, age) VALUES
+	('Aditya Kharat', 20),
+	('Kajal Kharat', 38),
+	('Chandrashekhar kharat', 50);
+
+SELECT * FROM stud_profile;
+

@@ -1,0 +1,12 @@
+out.println("<form action='insert'>");
+  out.println("<div class='form-group'>");
+    out.println("<label for='studentName'>Name of the student</label>");
+    out.println("<input type='text' class='form-control' id='studentName' aria-describedby='textHelp' placeholder='Enter full name of student'>");
+    out.println("<small id='textHelp' class='form-text text-muted'>Please Enter your Students Full name</small>");
+  out.println("</div>");
+  out.println("<div class='form-group'>");
+    out.println("<label for='studentAge'>Age of the student</label>");
+    out.println("<input type='number' class='form-control' id='studentAge' placeholder='Age of the student'>");
+  out.println("</div>");
+  out.println("<button type='submit' class='btn btn-primary'>Submit</button>");
+out.println("</form>");

@@ -1,0 +1,11 @@
+body{
+    background: greenyellow;
+}
+.links a{
+    width: 25%;
+    height: 3rem;
+    margin: 40px auto;
+    font-size: 2rem;
+    font-weight: lighter;
+   
+}
