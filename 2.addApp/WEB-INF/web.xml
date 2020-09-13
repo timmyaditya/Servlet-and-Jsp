@@ -1,0 +1,21 @@
+<web-app>
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>One</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/One</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>Two</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>second</servlet-name>
+		<url-pattern>/Two</url-pattern>
+	</servlet-mapping>
+
+</web-app>

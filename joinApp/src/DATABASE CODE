@@ -1,0 +1,12 @@
+DATABASE CODE;
+
+CREATE DATABASE joinusDB;
+USE joinusDB;
+CREATE TABLE customers(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	fname VARCHAR(255) NOT NULL DEFAULT 'unamed',
+	lname VARCHAR(255) NOT NULL DEFAULT 'unamed',
+	email VARCHAR(255) NOT NULL DEFAULT 'example@example.com',
+	created_at TIMESTAMP DEFAULT NOW()
+);
+INSERT INTO customers(fname, lname, email) VALUES('aditya', 'kharat', 'asdklfj@lasdfkj.com');

@@ -1,0 +1,18 @@
+<web-app>
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>Table1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/tableone</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>Table2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>second</servlet-name>
+		<url-pattern>/tabletwo</url-pattern>
+	</servlet-mapping>
+</web-app>

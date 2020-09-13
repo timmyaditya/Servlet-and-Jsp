@@ -1,0 +1,33 @@
+<web-app>
+
+
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>Hidden1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/hidden1</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>Hidden2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>second</servlet-name>
+		<url-pattern>/hidden2</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>third</servlet-name>
+		<servlet-class>Hidden3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>third</servlet-name>
+		<url-pattern>/hidden3</url-pattern>
+	</servlet-mapping>
+
+</web-app>

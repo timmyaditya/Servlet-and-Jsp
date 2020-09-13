@@ -1,0 +1,13 @@
+CREATE DATABASE products;
+USE products;
+CREATE TABLE productInfo(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	productName VARCHAR(100) NOT NULL UNIQUE,
+	price INT NOT NULL,
+	material VARCHAR(100) NOT NULL 
+);
+INSERT INTO productInfo(productName, price, material) VALUES
+	('P1', 100, 'S.S'),
+	('P2', 150, 'H.C.S'),
+	('P3', 200, 'S')
+

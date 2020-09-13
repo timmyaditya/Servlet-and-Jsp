@@ -1,0 +1,39 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>user</servlet-name>
+		<servlet-class>User</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>user</servlet-name>
+		<url-pattern>/user</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>check</servlet-name>
+		<servlet-class>Check</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>check</servlet-name>
+		<url-pattern>/check</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>male</servlet-name>
+		<servlet-class>Male</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>male</servlet-name>
+		<url-pattern>/male</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>female</servlet-name>
+		<servlet-class>Female</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>female</servlet-name>
+		<url-pattern>/female</url-pattern>
+	</servlet-mapping>
+
+</web-app>

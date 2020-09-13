@@ -1,0 +1,19 @@
+<web-app>
+	<servlet>
+		<servlet-name>productdisplay</servlet-name>
+		<servlet-class>ProductDisplay</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>productdisplay</servlet-name>
+		<url-pattern>/productdisplay</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>productinfo</servlet-name>
+		<servlet-class>ProductInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>productinfo</servlet-name>
+		<url-pattern>/productinfo</url-pattern>
+	</servlet-mapping>
+</web-app>

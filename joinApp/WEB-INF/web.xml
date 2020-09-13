@@ -1,0 +1,37 @@
+<web-app>
+	<servlet>
+		<servlet-name>index</servlet-name>
+		<servlet-class>Index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>index</servlet-name>
+		<url-pattern>/index</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>info</servlet-name>
+		<servlet-class>Info</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>info</servlet-name>
+		<url-pattern>/info</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>databaseinsert</servlet-name>
+		<servlet-class>DatabaseInsert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>databaseinsert</servlet-name>
+		<url-pattern>/databaseinsert</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>joined</servlet-name>
+		<servlet-class>Joined</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>joined</servlet-name>
+		<url-pattern>/joined</url-pattern>
+	</servlet-mapping>
+</web-app>
